@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #0f27c9, #1341d3, #2257dc, #366be2, #4c7fe7, #538bea, #5c96ec, #68a1ed, #69a7ed, #6caded, #71b3ec, #77b9eb);
+}
+
+header {
+    background-color: black;
+}
+header h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    border: 2px solid grey;
+}
+
+.menu {
+    width: 30%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+.menu-filho{ 
+    background-color: #6A98EC;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#comandos {
+    float: right;
+    width: 70%;
+    margin-top: 30px;
+    background-color: ;
+    display: flex; 
+    flex-direction: column;
+    gap: 20px;
+}
